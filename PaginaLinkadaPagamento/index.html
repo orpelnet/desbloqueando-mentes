@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--input do ddi e celular-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <!--foto do cartao-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--link da foto do cartao-->
+    <!--https://fonts.google.com/icons?selected=Material+Symbols+Outlined:add_card:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=add+card&icon.size=24&icon.color=%235f6368-->
+    <!--foto do boleto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--link da foto do boleto-->
+    <!--https://fonts.google.com/icons?selected=Material+Symbols+Outlined:barcode:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=code+&icon.size=24&icon.color=%235f6368-->
+    <!--foto do escudo com cadeado-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--link da foto do escudo com cadeado-->
+    <!--https://fonts.google.com/icons?selected=Material+Symbols+Outlined:shield_lock:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=shield+lock&icon.size=24&icon.color=%235f6368-->
+    <!--link do icone do relogio-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+   
+    <title>Link do Desbloqueando mentes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="container_tempo">
+    <div class="temporizador">
+      <div id="tempo">15:00</div>
+    <div id="relogio" class="material-icons-outlined">schedule</div>
+    <div class="mensagem">Oferta por tempo limitado</div>
+  </div>
+</div>
+ 
+    <div class="topo">
+      <img src="imagens/Capa (1).png" alt="capa" class="capa-imagem">
+      <h1>Desbloqueando mentes</h1>
+    </div>
+
+
+    <img src="imagens/imagem_garantia.png" alt="garantia" class="garantia-imagem">
+
+    <div class="topo_responsivo">
+      <img src="imagens/Capa (1).png" alt="capa" class="capa-imagem">
+      <h1>Desbloqueando mentes</h1>
+    </div>
+
+
+  
+    
+    <div class="container_alinhar">
+    <div class="container_Principal">
+      
+      <form id="payment-form">
+        <div class="input_box">
+          <input type="text" id="myInput" required>
+          <label for="myInput" >Nome completo</label>
+        </div>
+        <div class="input_box">
+          <input type="text" id="myInput" required>
+          <label for="myInput">Email</label>
+        </div>
+        <div class="input_box">
+          <input type="text" id="myInput" required>
+          <label for="myInput">Confirmar email</label>
+        </div>
+
+        
+          
+        <div class="input_box">
+          <input type="name" id="myInput" required>
+          <label for="myInput">CPF</label>
+        </div>
+              <br>
+              <div class="center">
+              <input id="phone"  type="tel" />
+            </div>
+              
+          
+            
+        <!-- cartao, boleto e pix-->
+        
+        <div id="tabs">
+          <div class="tab active" onclick="changeContent('cartao')">
+           <div class="Cartao_posicao">
+            <span class="material-symbols-outlined">
+              add_card
+              </span> <div class="cartao_flex">Cartão</div>
+            </div>
+          </div>
+          <div class="tab" onclick="changeContent('boleto')">
+            <div class="Cartao_posicao">
+            <span class="material-symbols-outlined">
+              barcode
+              </span><div class="cartao_flex">Boleto</div>
+          </div>
+        </div>
+          <div class="tab" onclick="changeContent('pix')">
+            <div class="Cartao_posicao">
+            <img src="imagens/imagem_pix.svg" class="pix"><div class="ola">pix</div>
+          </div>
+          </div>
+        </div>
+        
+        <div id="content">
+          <div id="cartao" class="content" style="display:block;">
+            <div class="pagamento">
+              <div class="input_box">
+                <input type="text" id="myInput" required>
+                <label for="myInput">Número de Cartão de Crédito</label>
+              </div>
+             
+              <div class="display">
+               
+              <div class="Container_Selecao">
+                <select id="Mes" class="anual" required>
+                  <option disabled selected>MÊS</option>
+                  <option value="">01</option>
+                  <option value="">02</option>
+                  <option value="">03</option>
+                  <option value="">04</option>
+                  <option value="">05</option>
+                  <option value="">06</option>
+                  <option value="">07</option>
+                  <option value="">08</option>
+                  <option value="">09</option>
+                  <option value="">10</option>
+                  <option value="">11</option>
+                  <option value="">12</option>
+                  <option value="">13</option>
+                  <option value="">14</option>
+                  <option value="">15</option>
+                  <option value="">16</option>
+                  <option value="">17</option>
+                  <option value="">18</option>
+                  <option value="">19</option>
+                  <option value="">20</option>
+                  <option value="">21</option>
+                  <option value="">22</option>
+                  <option value="">23</option>
+                  <option value="">24</option>
+                  <option value="">25</option>
+                  <option value="">26</option>
+                  <option value="">27</option>
+                  <option value="">28</option>
+                  <option value="">29</option>
+                  <option value="">30</option>
+                  <option value="">31</option>
+                  
+                 </select>
+              
+              </div>
+              <div class="Container_Selecao">
+                  <select id="Ano" class="mensal" required>
+                      <option disabled selected>ANO</option>
+                      <option value="">2027</option>
+                      <option value="">2028</option>
+                      <option value="">2029</option>
+                      <option value="">2030</option>
+                      <option value="">2031</option>
+                      <option value="">2032</option>
+                      <option value="">2033</option>
+                      <option value="">2034</option>
+                      <option value="">2035</option>
+                      <option value="">2036</option>
+                      <option value="">2037</option>
+                      <option value="">2038</option>
+                      <option value="">2039</option>
+                      <option value="">2040</option>
+                      <option value="">2041</option>
+                     
+                    
+                  </select>
+                
+              </div>
+              <div class="input_box">
+                <div class="teste">
+                  <form id="payment-form">
+                   
+                      <input type="text" id="myInput" required>
+                      <label for="myInput" class="codigo_seguranca">Cód. segurança</label>
+                    
+            </div>
+              </div>
+            
+        </div>
+            <div class="Container_Selecao">
+              <select id="parcelas" class="parcela" required>
+                
+                <option value="1">parcelas -  1x de R$ 10,03</option>
+                <option value="2">parcelas -  2x de R$ 10,03</option>
+                <option value="3">parcelas -  3x de R$ 10,03</option>
+                <option value="4">parcelas -  4x de R$ 10,03</option>
+                <option value="5">parcelas -  5x de R$ 10,03</option>
+                
+              </select>
+            </div>
+        </div>
+        
+            <div class="form-group">
+              <input type="checkbox" id="save-data" />
+              <label for="save-data">Salvar dados para as próximas compras</label>
+               
+             
+        </div>
+        
+          </div>
+
+        
+          <div id="boleto" class="content">
+            <div class="container-interno">
+              <strong>Informações sobre o pagamento via boleto:</strong>
+              <br>
+              <ul>
+                <li>Valor à vista: R$ 49,90.</li>
+                <li>Não podemos parcelar Boleto.</li>
+                <li>Pode levar até 2 dias úteis para compensar.</li>
+              </ul>
+            </div>
+           
+          </div>
+          <div id="pix" class="content">
+           
+              <div class="container-interno">
+                <strong>Informações sobre o pagamento via pix:</strong>
+                <ul>
+                  <li>Valor à vista: R$ 49,90</li>
+                  <li>Liberação imediata!</li>
+                  <li>É simples, só usar o aplicativo de seu banco para pagar PIX.</li>
+                  <li>Super seguro. O pagamento PIX foi desenvolvido pelo Banco Central para facilitar pagamentos.</li>
+                </ul>
+              </div>
+            
+          </div>
+        </div>
+       
+        <div class="email-container">
+          <label for="email-input"><strong>Insira seu email para podermos lhe enviar seu ebook</strong></label>
+          
+          <div class="input-group">
+            <span class="icon-envelope">✉</span>
+            <input type="email" id="email-input" placeholder="E-Mail">
+          </div>
+          
+          <button type="submit" class="botao" >PAGAR AGORA</button>
+        </div>
+      </div>
+      </form>
+    </div>
+
+    
+
+
+    <script>
+      var input = document.querySelector("#phone");
+      window.intlTelInput(input, {
+        // any initialisation options go here
+        separateDialCode: true,
+        preferredCountries: ['br'],
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+      });
+
+
+      //cartao, boleto e pix
+      function changeContent(type) {
+  // Esconde todos os conteúdos
+  var contents = document.getElementsByClassName('content');
+  for (var i = 0; i < contents.length; i++) {
+    contents[i].style.display = 'none';
+  }
+  // Mostra o conteúdo selecionado
+  var selectedContent = document.getElementById(type);
+  if (selectedContent) {
+    selectedContent.style.display = 'block';
+  }
+
+  // Remove a classe 'active' de todos os botões
+  var tabs = document.getElementById('tabs').getElementsByClassName('tab');
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].classList.remove('active');
+  }
+  // Adiciona a classe 'active' ao botão clicado
+  event.currentTarget.classList.add('active');
+}
+
+
+  //container preto que o usuario vai inserir o email
+
+  document.querySelector('.email-container button').addEventListener('click', function() {
+  var email = document.getElementById('email-input').value;
+  // Aqui você pode adicionar o código para enviar o email
+  alert('E-mail enviado para: ' + email);
+});
+     
+
+  // Script do relógio
+function iniciarContagem() {
+  var tempoTotal = 15 * 60; // 15 minutos em segundos
+  var intervalo = setInterval(function() {
+    var minutos = parseInt(tempoTotal / 60, 10);
+    var segundos = parseInt(tempoTotal % 60, 10);
+
+    minutos = minutos < 10 ? "0" + minutos : minutos;
+    segundos = segundos < 10 ? "0" + segundos : segundos;
+
+    document.getElementById('tempo').textContent = minutos + ":" + segundos;
+
+    // Atualizar o ícone do relógio para simular o movimento dos ponteiros
+    var graus = (360 - (tempoTotal / (15 * 60)) * 360) % 360;
+    document.getElementById('relogio').style.transform = 'rotate(' + graus + 'deg)';
+
+    if (--tempoTotal < 0) {
+      clearInterval(intervalo);
+      document.getElementById('tempo').textContent = "00:00";
+      document.querySelector('.mensagem').textContent = "O tempo acabou"; // Alteração aqui
+    }
+  }, 1000);
+}
+
+// Iniciar a contagem quando a página carregar
+window.onload = iniciarContagem;
+    </script>
+    
+   
+  </body>
+
+</html>
