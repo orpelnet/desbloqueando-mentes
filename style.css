@@ -1150,10 +1150,7 @@ body::-webkit-scrollbar-track {
 }
 
 @media  (max-width : 480px) {
-  .container-main .main-divisao .main-esquerdo{
-    
-    font-size: 20px;
-}
+ 
 .container-main .header-fundo p {
   font-size: 12px;
 
@@ -1168,21 +1165,32 @@ body::-webkit-scrollbar-track {
   padding-left: 12px;
 }
 .header-topo {
-  font-size: 22px;
+  font-size: 24px;
 }
-.container-main .main-divisao .main-esquerdo h1 {
-  font-size: 16px;
+.container-main .main-divisao {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -4.0em;
 }
-.container-main .main-divisao .main-esquerdo h2{
-  font-size: 20px;
-  margin-top: -2.0em;
+
+.container-main .main-divisao .main-esquerdo,
+.container-main .main-divisao .main-direito {
+  width: 100%;
+  margin-left: 0;
+  padding: 20px;
 }
-.container-main .main-esquerdo .button-trick{
-  font-size: 14px;
+
+.container-main .main-divisao .main-esquerdo h1,
+.container-main .main-divisao .main-esquerdo h2,
+.container-main .main-divisao .main-esquerdo p {
+  width: 100%;
 }
-.container-main .main-divisao .main-esquerdo p{
-  font-size: 12px;
+.container-main .main-divisao .main-esquerdo .button-trick {
+  display: block;
+  margin: 20px auto 0; 
 }
+
 .container-noticia h2{
   font-size: 20px;
 }
