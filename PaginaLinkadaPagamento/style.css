@@ -157,6 +157,7 @@ body{
     border: 1px solid #ccc;
     display: none;
     margin-top: 15px;
+    background-color: #fafafa;
   }
   
   .icon {
@@ -236,7 +237,7 @@ body{
   
   
   .container-interno {
-    background-color: #ffe0cc; /* Cor de pele */
+    background-color: #fafafa; 
     padding: 15px;
     border-radius: 5px;
   }
@@ -528,3 +529,4 @@ body{
   
   
 }
+
