@@ -1072,6 +1072,7 @@ body::-webkit-scrollbar-track {
 }
 .container-main .main-divisao .main-esquerdo h2{
   font-size: 22px;
+ 
 }
 .container-main .main-esquerdo .button-trick{
   font-size: 16px;
@@ -1099,6 +1100,7 @@ body::-webkit-scrollbar-track {
 }
 .container-metodo p {
   font-size: 13px;
+  width: 65%;
 }
 .container-metodo .metodos .metodo1 h3, .container-metodo .metodos .metodo2 h3{
   font-size: 17px;
@@ -1113,6 +1115,7 @@ body::-webkit-scrollbar-track {
 .container-metodo .metodos .metodo2{
   width: 440px;
   height: 160px;
+  margin-bottom: 1.0em;
 }
 .container-metodo .metodos{
   align-items: center;
@@ -1127,6 +1130,7 @@ body::-webkit-scrollbar-track {
 }
 .container-autor .autor-esquerdo .autor-titulo {
   font-size: 11px;
+  margin-top: 2.0em;
 }
 .container-autor .autor-esquerdo .autor-nome {
   font-size: 22px;
@@ -1170,6 +1174,7 @@ body::-webkit-scrollbar-track {
 }
 .container-main .main-divisao .main-esquerdo h2{
   font-size: 20px;
+  margin-top: -2.0em;
 }
 .container-main .main-esquerdo .button-trick{
   font-size: 14px;
